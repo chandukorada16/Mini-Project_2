@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    username: root
+    password: 9603
+    url: jdbc:mysql://localhost:3306/reports
+    dbcp2:
+      driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher   
+
+
+      
